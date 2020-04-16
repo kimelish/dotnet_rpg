@@ -1,5 +1,5 @@
-using System.Linq;
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 
 namespace dotnet_rpg.Models {
@@ -12,14 +12,21 @@ namespace dotnet_rpg.Models {
             new Character { Id = 1, Name = "Sam" }
         };
 
-        [HttpGet("GetAll")]
+        [HttpGet ("GetAll")]
         public IActionResult Get () {
             return Ok (characters);
         }
 
-        [Route("{id}")]
+        [Route ("{id}")]
         public IActionResult GetSingle (int id) {
-            return Ok (characters.FirstOrDefault(c => c.Id == id));
+            return Ok (characters.FirstOrDefault (c => c.Id == id));
+        }
+
+        [HttpPost]
+        public IActionResult AddCharacter (Character newCharacter) {
+            characters.Add (newCharacter);
+            return Ok (characters);
+
         }
 
     }
