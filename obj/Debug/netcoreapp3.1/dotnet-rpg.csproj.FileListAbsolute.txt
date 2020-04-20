@@ -18,3 +18,6 @@ C:\Users\yoshu\source\repos\Projects\dotnet-rpg\obj\Debug\netcoreapp3.1\staticwe
 C:\Users\yoshu\source\repos\Projects\dotnet-rpg\obj\Debug\netcoreapp3.1\dotnet-rpg.dll
 C:\Users\yoshu\source\repos\Projects\dotnet-rpg\obj\Debug\netcoreapp3.1\dotnet-rpg.pdb
 C:\Users\yoshu\source\repos\Projects\dotnet-rpg\obj\Debug\netcoreapp3.1\dotnet-rpg.genruntimeconfig.cache
+C:\Users\yoshu\source\repos\Projects\dotnet-rpg\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\yoshu\source\repos\Projects\dotnet-rpg\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\yoshu\source\repos\Projects\dotnet-rpg\obj\Debug\netcoreapp3.1\dotnet-rpg.csproj.CopyComplete
